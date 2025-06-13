@@ -10,7 +10,7 @@ This project uses the YOLOv8 object detection model trained on the MIO-TCD datas
 - Train: `python yolo_train.py`
 - Inference: `python yolo.py --weights yolov8n.pt --source path/to/image_or_video`
 
-##Dataset
+## Dataset
 
 This project uses the [MIO-TCD Dataset](https://tcd.miovision.com/).
 
@@ -20,6 +20,17 @@ You can download the datasets from the official website:
 - 🔗 **Localization Dataset**: [Download here](https://tcd.miovision.com/challenge/dataset.html)
 
 After downloading, place the folders in the root project directory
+
+## Model Performance
+
+| Metric              | Value |
+| ------------------- | ----- |
+| **mAP\@0.5**        | 86.0% |
+| **mAP\@0.5:0.95**   | 66.4% |
+| **Precision**       | 84.4% |
+| **Recall**          | 80.1% |
+| **F1-Score**        | 86.0% |
+| **Training Epochs** | 50    |
 
 ## Credits
 - Ultralytics YOLOv8
