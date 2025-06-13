@@ -32,6 +32,10 @@ After downloading, place the folders in the root project directory
 | **F1-Score**        | 86.0% |
 | **Training Epochs** | 50    |
 
+## Training Metrics
+
+![Training Metrics](images/results.png)
+
 ## Credits
 - Ultralytics YOLOv8
 - MIO-TCD Dataset
