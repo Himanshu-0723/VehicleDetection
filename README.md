@@ -38,7 +38,10 @@ After downloading, place the folders in the root project directory
 ![Training Metrics](images/results.png)
 
 ## Sample Outputs
+Input Image
 ![Input Image](images/labels.jpg)
+
+Predicted classes
 ![Predicted by Model](images/pred.jpg)
 
 ## Credits
