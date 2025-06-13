@@ -5,6 +5,7 @@ This project uses the YOLOv8 object detection model trained on the MIO-TCD datas
 - Trained YOLOv8 models (`yolov8n.pt`, `yolo11n.pt`)
 - Dataset folders: `MIO-TCD Classification`, `MIO-TCD Localization`
 - Training and inference scripts
+- The best and last weights are present in runs/detect/train8/weights
 
 ## Usage
 - Train: `python yolo_train.py`
@@ -35,6 +36,10 @@ After downloading, place the folders in the root project directory
 ## Training Metrics
 
 ![Training Metrics](images/results.png)
+
+## Sample Outputs
+![Input Image](images/labels.png)
+![Predicted by Model](images/pred.png)
 
 ## Credits
 - Ultralytics YOLOv8
