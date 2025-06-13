@@ -1,1 +1,1 @@
-# Yolo-MIO-TCD"# VehicleDetection" 
+This project employs YOLOv8 object detection model which is trained on the MIO-TCD dataset to recognize various categories of vehicles in traffic surveillance video footage. The project is constructed for smart traffic control management systems and is intended to classify and localize traffic objects.
